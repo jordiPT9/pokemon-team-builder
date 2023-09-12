@@ -33,11 +33,11 @@ pokedex_number,name,generation,type_1,type_2,ability_1,ability_2,ability_hidden,
 32,Nidoran♂,1,Poison,,Poison Point,Rivalry,Hustle,273,46,57,40,40,40,50,235,1,1,1,1,0.5,1,0.5,0.5,2,1,2,0.5,1,1,1,1,1,0.5
 33,Nidorino,1,Poison,,Poison Point,Rivalry,Hustle,365,61,72,57,55,55,65,120,1,1,1,1,0.5,1,0.5,0.5,2,1,2,0.5,1,1,1,1,1,0.5
 34,Nidoking,1,Poison,Ground,Poison Point,Rivalry,Sheer Force,505,81,102,77,85,75,85,45,1,1,2,0,1,2,0.5,0.25,2,1,2,0.5,0.5,1,1,1,1,0.5
-35,Clefairy,1,Normal,,Cute Charm,Magic Guard,Friend Guard,323,70,45,48,60,65,35,150,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
-36,Clefable,1,Normal,,Cute Charm,Magic Guard,Unaware,483,95,70,73,95,90,60,25,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
+35,Clefairy,1,Normal,,Cute Charm,Magic Guard,Friend Guard,323,70,45,48,60,65,35,150,1,1,1,1,1,1,0.5,2,1,1,1,0.5,1,1,0,0.5,2,1
+36,Clefable,1,Normal,,Cute Charm,Magic Guard,Unaware,483,95,70,73,95,90,60,25,1,1,1,1,1,1,0.5,2,1,1,1,0.5,1,1,0,0.5,2,1
 37,Vulpix,1,Fire,,Flash Fire,,Drought,299,38,41,40,50,65,65,190,1,0,2,1,0.5,0.5,1,1,2,1,1,0.5,2,1,1,1,0.5,0.5
 38,Ninetales,1,Fire,,Flash Fire,,Drought,505,73,76,75,81,100,100,75,1,0,2,1,0.5,0.5,1,1,2,1,1,0.5,2,1,1,1,0.5,0.5
-39,Jigglypuff,1,Normal,,Cute Charm,Competitive,Friend Guard,270,115,45,20,45,25,20,170,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
+39,Jigglypuff,1,Normal,,Cute Charm,Competitive,Friend Guard,270,115,45,20,45,25,20,170,1,1,1,1,1,1,1,2,1,1,1,0.5,1,0,0,0.5,2,1
 40,Wigglytuff,1,Normal,,Cute Charm,Competitive,Frisk,435,140,70,45,85,50,45,50,1,1,1,1,1,1,1,2,1,1,1,0.5,1,0,0,0.5,2,1
 41,Zubat,1,Poison,Flying,Inner Focus,,Infiltrator,245,40,45,35,30,40,55,255,1,1,1,2,0.25,2,0.25,0.5,0,1,2,0.25,2,1,1,1,1,0.5
 42,Golbat,1,Poison,Flying,Inner Focus,,Infiltrator,455,75,80,70,65,75,90,90,1,1,1,2,0.25,2,0.25,0.5,0,1,2,0.25,2,1,1,1,1,0.5
@@ -120,7 +120,7 @@ pokedex_number,name,generation,type_1,type_2,ability_1,ability_2,ability_hidden,
 119,Seaking,1,Water,,Swift Swim,Water Veil,Lightning Rod,450,80,92,65,65,80,68,60,1,0.5,0.5,2,2,0.5,1,1,1,1,1,1,1,1,1,1,0.5,1
 120,Staryu,1,Water,,Illuminate,Natural Cure,Analytic,340,30,45,55,70,55,85,225,1,0.5,0.5,2,2,0.5,1,1,1,1,1,1,1,1,1,1,0.5,1
 121,Starmie,1,Water,Psychic,Illuminate,Natural Cure,Analytic,520,60,75,85,100,85,115,60,1,0.5,0.5,2,2,0.5,0.5,1,1,1,0.5,2,1,2,1,2,0.5,1
-122,Mr. Mime,1,Psychic,,Soundproof,Filter,Technician,460,40,45,65,100,120,90,45,1,1,1,1,1,1,0.5,1,1,1,0.5,2,1,2,1,2,1,1
+122,Mr. Mime,1,Psychic,,Soundproof,Filter,Technician,460,40,45,65,100,120,90,45,1,1,1,1,1,1,0.25,2,1,1,0.5,1,1,2,0,1,2,1
 123,Scyther,1,Bug,Flying,Swarm,Technician,Steadfast,500,70,110,80,55,80,105,45,1,2,1,2,0.25,2,0.25,1,0,2,1,0.5,4,1,1,1,1,1
 124,Jynx,1,Ice,Psychic,Oblivious,Forewarn,Dry Skin,455,65,50,35,115,95,95,45,1,2,1,1,1,0.5,1,1,1,1,0.5,2,2,2,1,2,2,1
 125,Electabuzz,1,Electric,,Static,,Vital Spirit,490,65,83,57,95,85,105,45,1,1,1,0.5,1,1,1,1,2,0.5,1,1,1,1,1,1,0.5,1
@@ -171,10 +171,10 @@ pokedex_number,name,generation,type_1,type_2,ability_1,ability_2,ability_hidden,
 170,Chinchou,2,Water,Electric,Volt Absorb,Illuminate,Water Absorb,330,75,38,38,56,56,67,190,1,0.5,0.5,0,2,0.5,1,1,2,0.5,1,1,1,1,1,1,0.25,1
 171,Lanturn,2,Water,Electric,Volt Absorb,Illuminate,Water Absorb,460,125,58,58,76,76,67,75,1,0.5,0.5,0,2,0.5,1,1,2,0.5,1,1,1,1,1,1,0.25,1
 172,Pichu,2,Electric,,Static,,Lightning Rod,205,20,40,15,35,35,60,190,1,1,1,0.5,1,1,1,1,2,0.5,1,1,1,1,1,1,0.5,1
-173,Cleffa,2,Normal,,Cute Charm,Magic Guard,Friend Guard,218,50,25,28,45,55,15,150,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
-174,Igglybuff,2,Normal,,Cute Charm,Competitive,Friend Guard,210,90,30,15,40,20,15,170,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
-175,Togepi,2,Normal,,Hustle,Serene Grace,Super Luck,245,35,20,65,40,65,20,190,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
-176,Togetic,2,Normal,Flying,Hustle,Serene Grace,Super Luck,405,55,40,85,80,105,40,75,1,1,1,2,0.5,2,1.0,1,0,1,1,0.5,2,0,1,1,1,1
+173,Cleffa,2,Normal,,Cute Charm,Magic Guard,Friend Guard,218,50,25,28,45,55,15,150,1,1,1,1,1,1,0.5,2,1,1,1,0.5,1,1,0,0.5,2,1
+174,Igglybuff,2,Normal,,Cute Charm,Competitive,Friend Guard,210,90,30,15,40,20,15,170,1,1,1,1,1,1,1,2,1,1,1,0.5,1,0,0,0.5,2,1
+175,Togepi,2,Normal,,Hustle,Serene Grace,Super Luck,245,35,20,65,40,65,20,190,1,1,1,1,1,1,0.5,2,1,1,1,0.5,1,1,0,0.5,2,1
+176,Togetic,2,Normal,Flying,Hustle,Serene Grace,Super Luck,405,55,40,85,80,105,40,75,1,1,1,2,0.5,2,0.25,2,0,1,1,0.25,2,1,0,0.5,2,1
 177,Natu,2,Psychic,Flying,Synchronize,Early Bird,Magic Bounce,320,40,50,45,70,45,70,190,1,1,1,2,0.5,2,0.25,1,0,1,0.5,1,2,2,1,2,1,1
 178,Xatu,2,Psychic,Flying,Synchronize,Early Bird,Magic Bounce,470,65,75,70,95,70,95,75,1,1,1,2,0.5,2,0.25,1,0,1,0.5,1,2,2,1,2,1,1
 179,Mareep,2,Electric,,Static,,Plus,280,55,40,40,65,45,35,235,1,1,1,0.5,1,1,1,1,2,0.5,1,1,1,1,1,1,0.5,1
@@ -182,7 +182,7 @@ pokedex_number,name,generation,type_1,type_2,ability_1,ability_2,ability_hidden,
 181,Ampharos,2,Electric,,Static,,Plus,510,90,75,85,115,90,55,45,1,1,1,0.5,1,1,1,1,2,0.5,1,1,1,1,1,1,0.5,1
 182,Bellossom,2,Grass,,Chlorophyll,,Healer,490,75,80,95,90,100,50,45,1,2,0.5,0.5,0.5,2,1,2,0.5,2,1,2,1,1,1,1,1,1
 183,Marill,2,Water,,Thick Fat,Huge Power,Sap Sipper,250,70,20,50,20,50,40,190,1,0.25,0.5,2,2,0.25,0.5,2,1,1,1,0.5,1,1,0,0.5,1,1
-184,Azumarill,2,Water,,Thick Fat,Huge Power,Sap Sipper,420,100,50,80,60,80,50,75,1,0.5,0.5,2,2,0.5,1,1,1,1,1,1,1,1,1,1,0.5,1
+184,Azumarill,2,Water,,Thick Fat,Huge Power,Sap Sipper,420,100,50,80,60,80,50,75,1,0.25,0.5,2,2,0.25,0.5,2,1,1,1,0.5,1,1,0,0.5,1,1
 185,Sudowoodo,2,Rock,,Sturdy,Rock Head,Rattled,410,70,100,115,30,65,30,65,0.5,0.5,2,1,2,1,2,0.5,2,0.5,1,1,1,1,1,1,2,1
 186,Politoed,2,Water,,Water Absorb,Damp,Drizzle,500,90,75,75,90,100,70,45,1,0.5,0,2,2,0.5,1,1,1,1,1,1,1,1,1,1,0.5,1
 187,Hoppip,2,Grass,Flying,Chlorophyll,Leaf Guard,Infiltrator,250,35,35,40,35,55,50,255,1,2,0.5,1,0.25,4,0.5,2,0,2,1,1,2,1,1,1,1,1
@@ -207,8 +207,8 @@ pokedex_number,name,generation,type_1,type_2,ability_1,ability_2,ability_hidden,
 206,Dunsparce,2,Normal,,Serene Grace,Run Away,Rattled,415,100,70,70,65,65,45,190,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
 207,Gligar,2,Ground,Flying,Hyper Cutter,Sand Veil,Immunity,430,65,75,105,35,65,85,60,1,1,2,0,1,4,0.5,0.5,0,1,1,0.5,1,1,1,1,1,1
 208,Steelix,2,Steel,Ground,Rock Head,Sturdy,Sheer Force,510,75,85,200,55,65,30,25,0.5,2,2,0,1,1,2,0,2,0.5,0.5,0.5,0.25,1,0.5,1,0.5,0.5
-209,Snubbull,2,Normal,,Intimidate,Run Away,Rattled,300,60,80,50,40,40,30,190,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
-210,Granbull,2,Normal,,Intimidate,Quick Feet,Rattled,450,90,120,75,60,60,45,75,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
+209,Snubbull,2,Normal,,Intimidate,Run Away,Rattled,300,60,80,50,40,40,30,190,1,1,1,1,1,1,0.5,2,1,1,1,0.5,1,1,0,0.5,2,1
+210,Granbull,2,Normal,,Intimidate,Quick Feet,Rattled,450,90,120,75,60,60,45,75,1,1,1,1,1,1,0.5,2,1,1,1,0.5,1,1,0,0.5,2,1
 211,Qwilfish,2,Water,Poison,Poison Point,Swift Swim,Intimidate,440,65,95,85,55,55,85,45,1,0.5,0.5,2,1,0.5,0.5,0.5,2,1,2,0.5,1,1,1,1,0.5,0.5
 212,Scizor,2,Bug,Steel,Swarm,Technician,Light Metal,500,70,130,100,55,80,65,25,0.5,4,1,1,0.25,0.5,1,0,1,1,0.5,0.5,1,1,0.5,1,0.5,0.5
 213,Shuckle,2,Bug,Rock,Sturdy,Gluttony,Contrary,505,20,10,230,10,230,5,190,0.5,1,2,1,1,1,1,0.5,1,1,1,1,2,1,1,1,2,1
@@ -278,9 +278,9 @@ pokedex_number,name,generation,type_1,type_2,ability_1,ability_2,ability_hidden,
 277,Swellow,3,Normal,Flying,Guts,,Scrappy,455,60,85,60,75,50,125,45,1,1,1,2,0.5,2,1,1,0,1,1,0.5,2,0,1,1,1,1
 278,Wingull,3,Water,Flying,Keen Eye,Hydration,Rain Dish,270,40,30,30,55,30,85,190,1,0.5,0.5,4,1,1,0.5,1,0,1,1,0.5,2,1,1,1,0.5,1
 279,Pelipper,3,Water,Flying,Keen Eye,Drizzle,Rain Dish,440,60,50,100,95,70,65,45,1,0.5,0.5,4,1,1,0.5,1,0,1,1,0.5,2,1,1,1,0.5,1
-280,Ralts,3,Psychic,,Synchronize,Trace,Telepathy,198,28,25,25,45,35,40,235,1,1,1,1,1,1,0.5,1,1,1,0.5,2,1,2,1,2,1,1
-281,Kirlia,3,Psychic,,Synchronize,Trace,Telepathy,278,38,35,35,65,55,50,120,1,1,1,1,1,1,0.5,1,1,1,0.5,2,1,2,1,2,1,1
-282,Gardevoir,3,Psychic,,Synchronize,Trace,Telepathy,518,68,65,65,125,115,80,45,1,1,1,1,1,1,0.5,1,1,1,0.5,2,1,2,1,2,1,1
+280,Ralts,3,Psychic,,Synchronize,Trace,Telepathy,198,28,25,25,45,35,40,235,1,1,1,1,1,1,0.25,2,1,1,0.5,1,1,2,0,1,2,1
+281,Kirlia,3,Psychic,,Synchronize,Trace,Telepathy,278,38,35,35,65,55,50,120,1,1,1,1,1,1,0.25,2,1,1,0.5,1,1,2,0,1,2,1
+282,Gardevoir,3,Psychic,,Synchronize,Trace,Telepathy,518,68,65,65,125,115,80,45,1,1,1,1,1,1,0.25,2,1,1,0.5,1,1,2,0,1,2,1
 283,Surskit,3,Bug,Water,Swift Swim,,Rain Dish,269,40,30,32,50,52,65,200,1,1,0.5,2,1,0.5,0.5,1,0.5,2,1,1,2,1,1,1,0.5,1
 284,Masquerain,3,Bug,Flying,Intimidate,,Unnerve,454,70,60,62,100,82,80,75,1,2,1,2,0.25,2,0.25,1,0,2,1,0.5,4,1,1,1,1,1
 285,Shroomish,3,Grass,,Effect Spore,Poison Heal,Quick Feet,295,60,40,60,40,60,35,255,1,2,0.5,0.5,0.5,2,1,2,0.5,2,1,2,1,1,1,1,1,1
@@ -296,12 +296,12 @@ pokedex_number,name,generation,type_1,type_2,ability_1,ability_2,ability_hidden,
 295,Exploud,3,Normal,,Soundproof,,Scrappy,490,104,91,63,91,73,68,45,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
 296,Makuhita,3,Fighting,,Thick Fat,Guts,Sheer Force,237,72,60,30,20,30,25,180,1,0.5,1,1,1,0.5,1,1,1,2,2,0.5,0.5,1,1,0.5,1,2
 297,Hariyama,3,Fighting,,Thick Fat,Guts,Sheer Force,474,144,120,60,40,60,50,200,1,0.5,1,1,1,0.5,1,1,1,2,2,0.5,0.5,1,1,0.5,1,2
-298,Azurill,3,Normal,,Thick Fat,Huge Power,Sap Sipper,190,50,20,40,20,40,20,150,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
+298,Azurill,3,Normal,,Thick Fat,Huge Power,Sap Sipper,190,50,20,40,20,40,20,150,1,0.5,1,1,1,0.5,1,2,1,1,1,0.5,1,0,0,0.5,2,1
 299,Nosepass,3,Rock,,Sturdy,Magnet Pull,Sand Force,375,30,45,135,45,90,30,255,0.5,0.5,2,1,2,1,2,0.5,2,0.5,1,1,1,1,1,1,2,1
 300,Skitty,3,Normal,,Cute Charm,Normalize,Wonder Skin,260,50,45,45,35,35,50,255,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
 301,Delcatty,3,Normal,,Cute Charm,Normalize,Wonder Skin,400,70,65,65,55,55,90,60,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
 302,Sableye,3,Dark,Ghost,Keen Eye,Stall,Prankster,380,50,75,75,65,65,50,45,0,1,1,1,1,1,0,0.5,1,1,0,1,1,1,1,1,1,2
-303,Mawile,3,Steel,,Hyper Cutter,Intimidate,Sheer Force,380,50,85,85,55,55,50,45,0.5,2,1,1,0.5,0.5,2,0,2,0.5,0.5,0.5,0.5,1,0.5,1,0.5,0.5
+303,Mawile,3,Steel,,Hyper Cutter,Intimidate,Sheer Force,380,50,85,85,55,55,50,45,0.5,2,1,1,0.5,0.5,1,0,2,0.5,0.5,0.25,0.5,1,0,0.5,1,0.5
 304,Aron,3,Steel,Rock,Sturdy,Rock Head,Heavy Metal,330,50,70,100,40,40,30,180,0.25,1,2,1,1,0.5,4,0,4,0.25,0.5,0.5,0.5,1,0.5,1,1,0.5
 305,Lairon,3,Steel,Rock,Sturdy,Rock Head,Heavy Metal,430,60,90,140,50,50,40,90,0.25,1,2,1,1,0.5,4,0,4,0.25,0.5,0.5,0.5,1,0.5,1,1,0.5
 306,Aggron,3,Steel,Rock,Sturdy,Rock Head,Heavy Metal,530,70,110,180,60,60,50,45,0.25,1,2,1,1,0.5,4,0,4,0.25,0.5,0.5,0.5,1,0.5,1,1,0.5
