@@ -118,7 +118,7 @@ pokemon_list = [
     'Togepi',
     'Igglybuff',
     'Jigglypuff',
-    'Wiglytuff',
+    'Wigglytuff',
     'Mr. Mime',
     'Clefairy',
     'Clefable',
