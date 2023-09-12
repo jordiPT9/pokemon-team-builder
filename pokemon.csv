@@ -85,7 +85,7 @@ pokedex_number,name,generation,type_1,type_2,ability_1,ability_2,ability_hidden,
 84,Doduo,1,Normal,Flying,Run Away,Early Bird,Tangled Feet,310,35,85,45,35,35,75,190,1,1,1,2,0.5,2,1,1,0,1,1,0.5,2,0,1,1,1,1
 85,Dodrio,1,Normal,Flying,Run Away,Early Bird,Tangled Feet,470,60,110,70,60,60,110,45,1,1,1,2,0.5,2,1,1,0,1,1,0.5,2,0,1,1,1,1
 86,Seel,1,Water,,Thick Fat,Hydration,Ice Body,325,65,45,55,45,70,45,190,1,0.25,0.5,2,2,0.25,1,1,1,1,1,1,1,1,1,1,0.5,1
-87,Dewgong,1,Water,Ice,Thick Fat,Hydration,Ice Body,475,90,70,80,70,95,70,75,1,0.5,0.5,2,2,125,2,1,1,1,1,1,2,1,1,1,1,1
+87,Dewgong,1,Water,Ice,Thick Fat,Hydration,Ice Body,475,90,70,80,70,95,70,75,1,0.5,0.5,2,2,0.25,2,1,1,1,1,1,2,1,1,1,1,1
 88,Grimer,1,Poison,,Stench,Sticky Hold,Poison Touch,325,80,80,50,40,50,25,190,1,1,1,1,0.5,1,0.5,0.5,2,1,2,0.5,1,1,1,1,1,0.5
 89,Muk,1,Poison,,Stench,Sticky Hold,Poison Touch,500,105,105,75,65,100,50,75,1,1,1,1,0.5,1,0.5,0.5,2,1,2,0.5,1,1,1,1,1,0.5
 90,Shellder,1,Water,,Shell Armor,Skill Link,Overcoat,305,30,65,100,45,25,40,190,1,0.5,0.5,2,2,0.5,1,1,1,1,1,1,1,1,1,1,0.5,1
