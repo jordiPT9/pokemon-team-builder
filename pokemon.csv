@@ -38,7 +38,7 @@ pokedex_number,name,generation,type_1,type_2,ability_1,ability_2,ability_hidden,
 37,Vulpix,1,Fire,,Flash Fire,,Drought,299,38,41,40,50,65,65,190,1,0,2,1,0.5,0.5,1,1,2,1,1,0.5,2,1,1,1,0.5,0.5
 38,Ninetales,1,Fire,,Flash Fire,,Drought,505,73,76,75,81,100,100,75,1,0,2,1,0.5,0.5,1,1,2,1,1,0.5,2,1,1,1,0.5,0.5
 39,Jigglypuff,1,Normal,,Cute Charm,Competitive,Friend Guard,270,115,45,20,45,25,20,170,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
-40,Wigglytuff,1,Normal,,Cute Charm,Competitive,Frisk,435,140,70,45,85,50,45,50,1,1,1,1,1,1,1,2,1,1,1,0.5,1,0,0,0.5,2,1
+40,Wigglytuff,1,Normal,,Cute Charm,Competitive,Frisk,435,140,70,45,85,50,45,50,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
 41,Zubat,1,Poison,Flying,Inner Focus,,Infiltrator,245,40,45,35,30,40,55,255,1,1,1,2,0.25,2,0.25,0.5,0,1,2,0.25,2,1,1,1,1,0.5
 42,Golbat,1,Poison,Flying,Inner Focus,,Infiltrator,455,75,80,70,65,75,90,90,1,1,1,2,0.25,2,0.25,0.5,0,1,2,0.25,2,1,1,1,1,0.5
 43,Oddish,1,Grass,Poison,Chlorophyll,,Run Away,320,45,50,55,75,65,30,255,1,2,0.5,0.5,0.25,2,0.5,1,1,2,2,1,1,1,1,1,1,0.5
