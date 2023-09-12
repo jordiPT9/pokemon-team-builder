@@ -174,14 +174,14 @@ pokedex_number,name,generation,type_1,type_2,ability_1,ability_2,ability_hidden,
 173,Cleffa,2,Normal,,Cute Charm,Magic Guard,Friend Guard,218,50,25,28,45,55,15,150,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
 174,Igglybuff,2,Normal,,Cute Charm,Competitive,Friend Guard,210,90,30,15,40,20,15,170,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
 175,Togepi,2,Normal,,Hustle,Serene Grace,Super Luck,245,35,20,65,40,65,20,190,1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1
-176,Togetic,2,Normal,Flying,Hustle,Serene Grace,Super Luck,405,55,40,85,80,105,40,75,1,1,1,2,0.5,2,1.0,1,0,1,1,0.5,2,0,1,1,1,1
+176,Togetic,2,Normal,Flying,Hustle,Serene Grace,Super Luck,405,55,40,85,80,105,40,75,1,1,1,2,0.5,2,1,1,0,1,1,0.5,2,0,1,1,1,1
 177,Natu,2,Psychic,Flying,Synchronize,Early Bird,Magic Bounce,320,40,50,45,70,45,70,190,1,1,1,2,0.5,2,0.25,1,0,1,0.5,1,2,2,1,2,1,1
 178,Xatu,2,Psychic,Flying,Synchronize,Early Bird,Magic Bounce,470,65,75,70,95,70,95,75,1,1,1,2,0.5,2,0.25,1,0,1,0.5,1,2,2,1,2,1,1
 179,Mareep,2,Electric,,Static,,Plus,280,55,40,40,65,45,35,235,1,1,1,0.5,1,1,1,1,2,0.5,1,1,1,1,1,1,0.5,1
 180,Flaaffy,2,Electric,,Static,,Plus,365,70,55,55,80,60,45,120,1,1,1,0.5,1,1,1,1,2,0.5,1,1,1,1,1,1,0.5,1
 181,Ampharos,2,Electric,,Static,,Plus,510,90,75,85,115,90,55,45,1,1,1,0.5,1,1,1,1,2,0.5,1,1,1,1,1,1,0.5,1
 182,Bellossom,2,Grass,,Chlorophyll,,Healer,490,75,80,95,90,100,50,45,1,2,0.5,0.5,0.5,2,1,2,0.5,2,1,2,1,1,1,1,1,1
-183,Marill,2,Water,,Thick Fat,Huge Power,Sap Sipper,250,70,20,50,20,50,40,190,1,0.25,0.5,2,2,0.25,0.5,2,1,1,1,0.5,1,1,0,0.5,1,1
+183,Marill,2,Water,,Thick Fat,Huge Power,Sap Sipper,250,70,20,50,20,50,40,190,1,0.5,0.5,2,2,0.5,1,1,1,1,1,1,1,1,1,1,0.5,1
 184,Azumarill,2,Water,,Thick Fat,Huge Power,Sap Sipper,420,100,50,80,60,80,50,75,1,0.5,0.5,2,2,0.5,1,1,1,1,1,1,1,1,1,1,0.5,1
 185,Sudowoodo,2,Rock,,Sturdy,Rock Head,Rattled,410,70,100,115,30,65,30,65,0.5,0.5,2,1,2,1,2,0.5,2,0.5,1,1,1,1,1,1,2,1
 186,Politoed,2,Water,,Water Absorb,Damp,Drizzle,500,90,75,75,90,100,70,45,1,0.5,0,2,2,0.5,1,1,1,1,1,1,1,1,1,1,0.5,1
