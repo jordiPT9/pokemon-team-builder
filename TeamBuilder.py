@@ -7,9 +7,6 @@ class TeamBuilder:
     self.pokemon_list = pokemon_list
     self.best_teams = []  
     self.best_overall_resistances_score = 0
-    self.good_stats_count = {
-        'phys_atk': 0,
-        'sp_atk': 0,
         'phys_def': 0,
         'sp_def': 0
     }
