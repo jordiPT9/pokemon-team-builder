@@ -4,11 +4,6 @@ from TeamBuilder import TeamBuilder
 
 if __name__ == "__main__":
     pokemon = [
-        'Dewgong',
-        'Gardevoir',
-        'Manectric',
-        'Pupitar',
-        'Hypno',
         'Nidoqueen',
         'Noctowl',
         'Quagsire',

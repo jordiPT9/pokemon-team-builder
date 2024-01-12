@@ -6,8 +6,6 @@ class TeamBuilder:
   def __init__(self, pokemon_list):
     self.pokemon_list = pokemon_list
     self.best_teams = []  
-    self.best_overall_stats_score = 0
-    self.best_overall_weaknesses_score = float('inf')
     self.best_overall_resistances_score = 0
     self.good_stats_count = {
         'phys_atk': 0,
@@ -21,10 +19,6 @@ class TeamBuilder:
     pokedex = []
     with open(csv_file, 'r', encoding='utf-8') as file:
       reader = csv.DictReader(file)
-      for row in reader:
-        attributes = {
-            'name': row['name'],
-            'type1': row['type_1'],
             'type2': row['type_2'],
             'base_total': int(row['total_points']),
             'hp': int(row['hp']),

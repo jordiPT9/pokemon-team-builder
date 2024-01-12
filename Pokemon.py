@@ -4,9 +4,6 @@ class Pokemon:
                 type1,
                 type2,
                 base_total,
-                hp,
-                attack,
-                defense,
                 sp_attack,
                 sp_defense,
                 speed,
@@ -33,10 +30,6 @@ class Pokemon:
         self.sp_attack = sp_attack
         self.sp_defense = sp_defense
         self.speed = speed
-        self.weaknesses = weaknesses
-        self.against_bug = against_bug
-        self.against_dark = against_dark
-        self.against_dragon = against_dragon
         self.against_electric = against_electric
         self.against_fairy = against_fairy
         self.against_fight = against_fight

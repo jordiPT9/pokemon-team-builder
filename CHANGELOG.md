@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/jordiPT9/pokemon_team_builder/compare/v1.1.1...v1.1.2) (2024-01-12)
+
+
+### Chores
+
+* delete pokemon list ([b1f93a1](https://github.com/jordiPT9/pokemon_team_builder/commit/b1f93a1069dd3bdad05795e7d1f62630d7b3de93))
+
 ### 1.1.1 (2024-01-12)
 
 
