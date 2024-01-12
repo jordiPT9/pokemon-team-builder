@@ -113,7 +113,7 @@ pokemon_list = [
     'Granbull',
     'Snubbull',
     'Azumarill',
-    'Marill ',
+    'Marill',
     'Togetic',
     'Togepi',
     'Igglybuff',
