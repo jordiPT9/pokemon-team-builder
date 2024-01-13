@@ -6,8 +6,6 @@ if __name__ == "__main__":
     pokemon = [
         'Nidoqueen',
         'Noctowl',
-        'Quagsire',
-        'Lanturn',
         'Kingler',
         'Gengar',
         'Marowak',
