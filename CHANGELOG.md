@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/jordiPT9/pokemon_team_builder/compare/v1.1.2...v1.2.0) (2024-01-13)
+
+
+### Features
+
+* **team-builder:** changed constructor builder ([19c2c8a](https://github.com/jordiPT9/pokemon_team_builder/commit/19c2c8a769042a681ca1de284b98c31c02c82ad9))
+
 ### [1.1.2](https://github.com/jordiPT9/pokemon_team_builder/compare/v1.1.1...v1.1.2) (2024-01-12)
 
 
