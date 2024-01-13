@@ -10,14 +10,10 @@ class TeamBuilder:
         'phys_def': 0,
         'sp_def': 0
     }
-    self.best_diff = 0
-
   def load_pokemon_data(self, csv_file):
     pokedex = []
     with open(csv_file, 'r', encoding='utf-8') as file:
       reader = csv.DictReader(file)
-            'type2': row['type_2'],
-            'base_total': int(row['total_points']),
             'hp': int(row['hp']),
             'attack': int(row['attack']),
             'defense': int(row['defense']),
