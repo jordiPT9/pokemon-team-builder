@@ -1,14 +1,54 @@
 {
   "name": "your-package",
-  "version": "1.3.0",
+  "version": "1.2.4",
   "scripts": {
     "release": "standard-version"
   },
   "standard-version": {
     "types": [
       {
+        "type": "feat",
+        "section": "Feature"
+      },
+      {
         "type": "fix",
-        "section": "Bug Fixes"
+        "section": "Bugfix"
+      },
+      {
+        "type": "build",
+        "section": "Build"
+      },
+      {
+        "type": "chore",
+        "section": "Chore"
+      },
+      {
+        "type": "ci",
+        "section": "Continuous Integration"
+      },
+      {
+        "type": "docs",
+        "section": "Documentation"
+      },
+      {
+        "type": "perf",
+        "section": "Perfomance"
+      },
+      {
+        "type": "refactor",
+        "section": "Refactor"
+      },
+      {
+        "type": "revert",
+        "section": "Revert"
+      },
+      {
+        "type": "style",
+        "section": "Style"
+      },
+      {
+        "type": "test",
+        "section": "Test"
       }
     ]
   }
