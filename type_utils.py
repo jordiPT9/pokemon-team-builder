@@ -56,8 +56,6 @@ def get_multiplier(attacking_type_str, pokemon_types_str_array):
   print(f"{attacking_type_str} * {pokemon_types_str_array[1]} = {damage_multiplier_2}")
 
   if (damage_multiplier_1 * damage_multiplier_2) == 0.0:
-    return 0
-  if (damage_multiplier_1 * damage_multiplier_2) == 1.0:
     return 1
   
   return damage_multiplier_1 * damage_multiplier_2
