@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/jordiPT9/pokemon_team_builder/compare/v1.2.1...v1.2.5) (2024-01-14)
+
+
+### Refactor
+
+* we are refactoring this ([e8523c9](https://github.com/jordiPT9/pokemon_team_builder/commit/e8523c9002919b442e90ff57b45730e2ef2405c8))
+
+
+### Chore
+
+* changes ([3e042b2](https://github.com/jordiPT9/pokemon_team_builder/commit/3e042b287ee6521ddb154d04b8fe94b4d9b01d4d))
+
+
+### Continuous Integration
+
+* enable all types to be logged into changelog ([a8373b0](https://github.com/jordiPT9/pokemon_team_builder/commit/a8373b0ee88c53290d1e10bffcda66dc7644e36b))
+
 ## [1.3.0](https://github.com/jordiPT9/pokemon_team_builder/compare/v1.2.4...v1.3.0) (2024-01-14)
 
 ### [1.2.4](https://github.com/jordiPT9/pokemon_team_builder/compare/v1.2.1...v1.2.4) (2024-01-14)
