@@ -1,6 +1,6 @@
 {
-  "name": "your-package",
-  "version": "1.2.5",
+  "name": "my-package",
+  "version": "1.0.0",
   "scripts": {
     "release": "standard-version"
   },
