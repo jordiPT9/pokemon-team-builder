@@ -4,12 +4,8 @@ from TeamBuilder import TeamBuilder
 
 if __name__ == "__main__":
     pokemon = [
-        'Nidoqueen',
-        'Noctowl',
         'Kingler',
         'Gengar',
-        'Marowak',
-        'Swampert',
         'Dodrio',
         'Granbull',
         'Sceptile',
