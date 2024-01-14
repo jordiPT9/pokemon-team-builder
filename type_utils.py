@@ -52,7 +52,6 @@ def get_multiplier(attacking_type_str, pokemon_types_str_array):
   defending_type_2 = TYPE_INDEX.get(pokemon_types_str_array[1], 1)
   damage_multiplier_1 = TYPE_CHART[attacking_type][defending_type_1]
 
-  if (damage_multiplier_1 * damage_multiplier_2) == 0.0:
     return 1
   
   return damage_multiplier_1 * damage_multiplier_2
