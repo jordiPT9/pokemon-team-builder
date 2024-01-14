@@ -7,7 +7,7 @@ if __name__ == "__main__":
         'Kingler',
         'Gengar',
         'Dodrio',
-        'Sceptile',
+        'Sceptile',sadsaS
         'Houndoom',
         'Magneton',
     ]
