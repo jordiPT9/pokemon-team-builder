@@ -9,6 +9,8 @@ TYPE_INDEX = {
     "Dragon": 15,
     "Dark": 16,
     "Fairy": 17
+    "Fairy": 17
+    "Fairy": 17
 }
 
 TYPE_CHART = [[1, 1, 1, 1, 1, 0.5, 1, 0, 0.5, 1, 1, 1, 1, 1, 1, 1, 1, 1],

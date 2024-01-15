@@ -7,7 +7,6 @@ if __name__ == "__main__":
         'Kingler',
         'Dodrio',
         'Houndoom',
-        'Magneton',
     ]
 
     team_builder = TeamBuilder(pokemon)
