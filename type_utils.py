@@ -7,8 +7,6 @@ TYPE_INDEX = {
     "Rock": 5,
     "Bug": 6,
     "Ghost": 7,
-    "Steel": 8,
-    "Fire": 9,
     "Water": 10,
     "Grass": 11,
     "Electric": 12,
