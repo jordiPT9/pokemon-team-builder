@@ -141,8 +141,6 @@ class TeamBuilder:
     print(f"Best total stats: {self.best_overall_stats_score}")
     print(f"Best weaknesses: {self.best_overall_weaknesses_score}")
     print("Best Teams:")
-    print("")
-    for i, team in enumerate(self.best_teams, start=1):
       print(f"Team {i}:")
       base_totals = 0
       total_weaknesses = 0
