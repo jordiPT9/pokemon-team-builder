@@ -40,5 +40,3 @@ class Pokemon:
         self.against_water = against_water
 
 git log ${{ github.event.before }}..${{ github.event.after }}
-    
-    ramon y cajal
