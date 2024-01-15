@@ -5,7 +5,6 @@ TYPE_INDEX = {
     "Rock": 5,
     "Grass": 11,
     "Electric": 12,
-    "Psychic": 13,
     "Ice": 14,
     "Dragon": 15,
     "Dark": 16,
