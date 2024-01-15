@@ -33,6 +33,8 @@ class Pokemon:
         self.against_grass = against_grass
         self.against_ice = against_ice
         self.against_normal = against_normal
+        self.against_normal = against_normal
+        self.against_normal = against_normal
         self.against_poison = against_poison
         self.against_psychic = against_psychic
         self.against_rock = against_rock
