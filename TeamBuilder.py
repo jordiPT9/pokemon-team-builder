@@ -11,7 +11,6 @@ class TeamBuilder:
         'sp_def': 0
     pokedex = []
     with open(csv_file, 'r', encoding='utf-8') as file:
-      reader = csv.DictReader(file)
             'hp': int(row['hp']),
             'attack': int(row['attack']),
             'defense': int(row['defense']),
