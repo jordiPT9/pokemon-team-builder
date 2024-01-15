@@ -15,5 +15,5 @@ jobs:
 
       - name: Check commit messages
         run: |
-          git log --format=%B (git rev-list -n 1 HEAD..$GITHUB_SHA)
-          git log --format=%B (git rev-list -n 1 HEAD..$GITHUB_SHA) | grep -E -i '^(feat|fix)|!'
+          git log --format=%B ${{ github.event.before }}..${{ github.sha }}
+          git log --format=%B ${{ github.event.before }}..${{ github.sha }} | grep -E -i '^(feat|fix)|!'
