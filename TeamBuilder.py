@@ -9,11 +9,8 @@ class TeamBuilder:
     self.best_overall_resistances_score = 0sada
         'phys_def': 0,
         'sp_def': 0
-    }
-  def load_pokemon_data(self, csv_file):
     pokedex = []
     with open(csv_file, 'r', encoding='utf-8') as file:
-      reader = csv.DictReader(file)
             'hp': int(row['hp']),
             'attack': int(row['attack']),
             'defense': int(row['defense']),
