@@ -31,7 +31,6 @@ class Pokemon:
         self.against_flying = against_flying
         self.against_ghost = against_ghost
         self.against_grass = against_grass
-        self.against_ground = against_ground
         self.against_ice = against_ice
         self.against_normal = against_normal
         self.against_poison = against_poison
