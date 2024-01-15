@@ -9,8 +9,8 @@ jobs:
       - uses: actions/checkout@v2
         with: 
           fetch-depth: 0
-      - name: get file changes
-        run: | 
-          git diff --name-only ${{ github.event.before }} ${{ github.event.after }}
       - name: Check commit messages
-        run: git log --format=%B ${{ github.event.before }}..${{ github.event.after }}
+        run: |
+          git log --format=%B ${{ github.event.before }}..${{ github.event.after }}
+          git log --format=%B ${{ github.event.before }}..${{ github.event.after }} | grep -E -i '^(feat|fix)|!'
+          git log --format=%B ${{ github.event.before }}..${{ github.event.after }} | grep -E -i '^(feat|fix)|!' | | wc -l
