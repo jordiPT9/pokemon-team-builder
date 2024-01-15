@@ -150,6 +150,4 @@ class TeamBuilder:
           base_totals += pokemon.base_total 
           print(f"| {pokemon.name} \t| Total Stats: {pokemon.base_total} | atk: {pokemon.attack} \tdefense: {pokemon.defense} \tsp_atk: {pokemon.sp_attack} \tsp_def: {pokemon.sp_defense} \tspeed: {pokemon.speed} \t| Typing: {pokemon.typing[0]} - {pokemon.typing[1]}")
       print(f"Total stats: {base_totals}")
-      print(f"Weaknesses: {self.best_overall_weaknesses_score}")
-      print(f"Resistances: {self.best_overall_resistances_score}")
       print("")
