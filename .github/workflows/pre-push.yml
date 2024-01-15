@@ -1,0 +1,27 @@
+name: Check Commit Messages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-commits:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Check commit messages
+        run: |
+          # Get the list of commits in the push
+          commit_range=$(git rev-list -n 1 HEAD..$GITHUB_SHA)
+          
+          # Check if any commit message contains "feat" or "fix"
+          if git log --format=%B $commit_range | grep -E -i '^(feat|fix)|!'; then
+            echo "Commit messages contain features or fixes. Proceeding with the push."
+          else
+            echo "No commit messages with features or fixes found. Rejecting the push."
+            exit 1
+          fi
