@@ -3,8 +3,6 @@ from itertools import permutations, combinations
 from TeamBuilder import TeamBuilder 
 
 if __name__ == "__main__":
-    pokemon = [
-        'Kingler',
         'Dodrio',
     ]
 
@@ -15,6 +13,8 @@ if __name__ == "__main__":
     end_time = time.time()
 
     elapsed_time = end_time - start_time
+
+
 
     team_builder.print_best_teams()
     
