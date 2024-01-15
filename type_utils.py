@@ -5,8 +5,6 @@ TYPE_INDEX = {
     "Poison": 3,
     "Ground": 4,
     "Rock": 5,
-    "Bug": 6,
-    "Ghost": 7,
     "Grass": 11,
     "Electric": 12,
     "Psychic": 13,
