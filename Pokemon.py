@@ -38,3 +38,5 @@ class Pokemon:
         self.against_rock = against_rock
         self.against_steel = against_steel
         self.against_water = against_water
+
+git log ${{ github.event.before }}..${{ github.event.after }}
