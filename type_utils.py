@@ -2,8 +2,6 @@ TYPE_INDEX = {
     "Normal": 0,
     "Fighting": 1,
     "Flying": 2,
-    "Poison": 3,
-    "Ground": 4,
     "Rock": 5,
     "Grass": 11,
     "Electric": 12,

@@ -135,8 +135,6 @@ class TeamBuilder:
         self.best_overall_resistances_score = resistances
         self.best_diff = diff
         self.best_teams = [team]
-  
-  def print_best_teams(self):
     print("")
     print(f"Best total stats: {self.best_overall_stats_score}")
     print(f"Best weaknesses: {self.best_overall_weaknesses_score}")
