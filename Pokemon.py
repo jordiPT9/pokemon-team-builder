@@ -25,8 +25,6 @@ class Pokemon:
                 against_psychic,
                 against_rock,
                 against_steel,
-                against_water):
-        self.against_electric = against_electric
         self.against_fairy = against_fairy
         self.against_fight = against_fight
         self.against_fire = against_fire
