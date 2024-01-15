@@ -26,8 +26,6 @@ class Pokemon:
                 against_rock,
                 against_steel,
                 against_water):
-        self.sp_defense = sp_defense
-        self.speed = speed
         self.against_electric = against_electric
         self.against_fairy = against_fairy
         self.against_fight = against_fight
