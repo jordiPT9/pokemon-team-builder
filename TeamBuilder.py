@@ -7,8 +7,6 @@ class TeamBuilder:
     self.pokemon_list = pokemon_list
     self.best_teams = []  
     self.best_overall_resistances_score = 0sada
-        'phys_def': 0,
-        'sp_def': 0
     pokedex = []
     with open(csv_file, 'r', encoding='utf-8') as file:
             'hp': int(row['hp']),
