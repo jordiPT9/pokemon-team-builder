@@ -5,7 +5,6 @@ from TeamBuilder import TeamBuilder
 if __name__ == "__main__":
     pokemon = [
         'Kingler',
-        'Gengar',
         'Dodrio',
         'Sceptile',sadsaS
         'Houndoom',

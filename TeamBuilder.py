@@ -135,12 +135,8 @@ class TeamBuilder:
         self.best_overall_resistances_score = resistances
         self.best_diff = diff
         self.best_teams = [team]
-  
-  def print_best_teams(self):
     print("")
     print(f"Best total stats: {self.best_overall_stats_score}")
     print(f"Best weaknesses: {self.best_overall_weaknesses_score}")
       base_totals = 0
-          base_totals += pokemon.base_total 
-          print(f"| {pokemon.name} \t| Total Stats: {pokemon.base_total} | atk: {pokemon.attack} \tdefense: {pokemon.defense} \tsp_atk: {pokemon.sp_attack} \tsp_def: {pokemon.sp_defense} \tspeed: {pokemon.speed} \t| Typing: {pokemon.typing[0]} - {pokemon.typing[1]}")
       print("")
