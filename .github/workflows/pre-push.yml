@@ -10,7 +10,8 @@ jobs:
         with: 
           fetch-depth: 0
       - name: Check commit messages
-        run: |
-          echo "git log --format=%B ${{ github.event.before }}..${{ github.event.after }}"
-          echo "git log --format=%B ${{ github.event.before }}..${{ github.event.after }} | grep -E -i '^(feat|fix)|!'"
-          echo "git log --format=%B ${{ github.event.before }}..${{ github.event.after }} | grep -E -i '^(feat|fix)|!' | | wc -l"
+        run: git log --format=%B ${{ github.event.before }}..${{ github.event.after }}
+      - name: print 1
+        run: git log --format=%B ${{ github.event.before }}..${{ github.event.after }} | grep -E -i '^(feat|fix)|!'
+      - name: print 2
+        run: git log --format=%B ${{ github.event.before }}..${{ github.event.after }} | grep -E -i '^(feat|fix)|!' | | wc -l
