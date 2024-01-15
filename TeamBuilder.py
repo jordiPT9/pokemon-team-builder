@@ -138,5 +138,7 @@ class TeamBuilder:
     print("")
     print(f"Best total stats: {self.best_overall_stats_score}")
     print(f"Best weaknesses: {self.best_overall_weaknesses_score}")
+    print(f"Best weaknesses: {self.best_overall_weaknesses_score}")
+    print(f"Best weaknesses: {self.best_overall_weaknesses_score}")
       base_totals = 0
       print("")
