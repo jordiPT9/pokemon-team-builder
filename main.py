@@ -7,7 +7,7 @@ if __name__ == "__main__":
     ]
 
 
-    start_time = time.time()
+  
     team_builder.build_best_teams()
     team_builder.build_best_teams()
     end_time = time.time()
