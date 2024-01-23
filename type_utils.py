@@ -1,6 +1,13 @@
 TYPE_INDEX = {
     "Normal": 0,
-    "Fighting": 1,
+    "Fighting": s1,
+    "Flying": 2,
+    "Rock": 5,
+    "Grass": 11,
+    "Electric": 12,
+    "Ice": 14,
+    "Fairy": 17
+}
 
 TYPE_CHART = [[1, 1, 1, 1, 1, 0.5, 1, 0, 0.5, 1, 1, 1, 1, 1, 1, 1, 1, 1],
 [1, 1, 1, 0.5, 0.5, 0.5, 1, 0.5, 0, 1, 1, 2, 1, 1, 1, 1, 1, 2],
