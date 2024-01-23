@@ -4,8 +4,6 @@ TYPE_INDEX = {
     "Flying": 2,
     "Rock": 5,
     "Grass": 11,
-    "Electric": 12,
-    "Ice": 14,
     "Fairy": 17
     "Fairy": 17
     "Fairy": 17
